@@ -61,11 +61,150 @@
                     <td>POLMAN BANDUNG</td>
                 </tr>
 
-            <!-- MEMBUAT COLDSPAN PADA TABLE ATAU MERGER-->
+            <!-- MEMBUAT COLSPAN PADA TABLE ATAU MERGER-->
                 <tr>
                     <td colspan="3">
                         <center> BISA </center>
                     </td>
                 </tr>
+            <!-- MEMBUAT ROWSPAN PADA TABLE ATAU MERGER-->
+                <tr>
+                    <th rowspan="2">HIBATULLAH</th>
+                    <td> BANDUNG </td>
+                    <td> POLMAN </td>
+                </tr>
+                <tr>
+                    <td> BANDUNG</td>
+                    <td> POLMAN</td>
+                </tr>
             </table>
+            <hr>
+            <!-- MEMASUKAN GAMBAR PADA HTML img src-->
+            <table>
+                <tr>
+                    <th>NAMA</th>
+                    <th>GAMBAR</th>
+                </tr>
+                <tr>
+                    <td>kucing</td>
+                    <td><img src="https://live.staticflickr.com/7018/6780207303_3d7ef671a2_b.jpg" width="200" height="200"/></td>
+                </tr>
+            </table>
+            <hr>
+            <!-- MEMASUKAN LINK LEWAT HTML-->
+             <h1>LIST FAVORIT</h1>
+             <ul type="square">
+             <li><p><a href="https://www.youtube.com/watch?v=Y8qBpE1ItsE" target="_blank">  myfavsong </p></li> <!-- target blank untuk membuka tab baru-->
+             <li> meren</li>
+            </ul>
+
+            <!-- ID lINKS cara memnavigasi pada halamnan yang sama-->
+             <p> <a href="#hiba"> cari aku</a></p>
+             <h2 id="hola">HOLA</h2>
+             <h2 id="hola">HOLA</h2>
+             <h2 id="hola">HOLA</h2>
+             <h2 id="hola">HOLA</h2>
+             <h2 id="hola">HOLA</h2>
+             <h2 id="hola">HOLA</h2>
+             <h2 id="hola">HOLA</h2>
+             <h2 id="hiba">you find me</h2>
+
+             <!-- membuat form atribut action and method-->
+              <form action=""method="post">
+                <label for="name"> Nama :</label> 
+                <input id="name" type="text">
+                <br>
+                <input type="password"required>
+                <br>
+                <input type="checkbox">
+                <br>
+                <input type="radio">
+                <br>  
+                <input type="number" min="1" max ="10">
+                <br>
+                <textarea rows="8" cols="64"> ketik disini</textarea>
+                <br>
+                <input type="submit" value="OK">
+              </form>
+
+              <!--MEMBUAT BUTTON -->
+              <button type="button" onclick="">
+                WTF
+              </button>
+
+              <!--MEMBUAT SELECTFORM-->
+              <P> CHOOSE YOUR AGENT</P>
+                <br\>
+                <select>
+                    <option> hiba</option>
+                    <option> hiba</option>
+                    <option> hiba</option>
+                    <option selected> hiba</option>
+                </select> 
+              <hr>
+                <!-- MEMBUAT OPTION GRUP-->
+                <p> PILIH BUAH</p> 
+                <select>
+                    <optgroup label="JUS BUAH">
+                        <option>MANGGA</option>
+                        <option>MANGGA</option>
+                        <option>MANGGA</option>
+                        <option>MANGGA</option>
+                    </optgroup>
+                    <OPtgroup label="PEMANIS">
+                        <option>GULA</option>
+                        <option>SUSU</option>
+                    </OPtgroup>
+                        
+                 </select>
+                 <hr>
+                 <!--MEMBUAT RADIO BUTTON SEBAGAI SELECT-->
+                
+                 <input type="radio" id="html" name="fav_language" value="HTML">
+                 <label for="html"> HTML</label><br>
+                 <input type="radio" id="js" name="fav_language" value="js">
+                 <label for="js"> JS</label><br>
+                 <input type="radio" id="css" name="fav_language" value="css">
+                 <label for="css"> CSS</label><br>
+                 <!-- fungsi name sama bahwa ini dalam satu grup -->
+
+                 <hr>
+                 <!-- MEMBUAT FIELD SETS DAN LEGENDS-->
+                <fieldset>
+                    <legend>DATA DIRI</legend>
+                    <p>
+                        <label for="nama"> NAMA</label>
+                        <input type="text" name="nama">
+                    <p>
+                        <label for="passsword"> PWD</label>
+                        <input type="password" name="passsword">
+                </fieldset>
+
+                <hr>
+                <!-- STRUCTURING HTML-->
+                <!-- <header> mendefinisikan header untuk document atau section-->
+                <!-- <nav> mendefinisikan satu set link navigasi-->
+                <!-- <section> mendefinisikan bagian dalam documen-->
+                <!-- <article> mendfinisikan suatu konten artikel-->                    
+                <!-- <aside> mendefinisikan bagian samping dari content (seperti sidebar)-->
+                <!-- <footer> mendefiniisikan footer bagiam bawah dari document or sectioin-->
+                <!-- <details> mendefinisikan detail tambajan yang dapat dibuka dam ditutup pengguna sesiai permintaan-->
+                <!-- <summary> mendefinisikan heading untuk element-->
+
+                <!-- HTML semantic ELEMENT (non simentic <div> <span> dan simentic)-->
+                    <article>
+                        <header>
+                            <h1> JUDUL ARTIKEL</h1>
+                            <p> selamat datang</p>
+                        </header>
+                        <nav> HAHAHAHAHAHAH</nav>
+                        <main>
+                            <p> ini kontennya berisi inti dari konten</p>
+                        </main>
+                        <footer>
+                            <p> FINISH</p>
+                        </footer>
+
+                    </article>
+
     </body>
